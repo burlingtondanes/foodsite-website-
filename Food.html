@@ -8,7 +8,7 @@
 
 <body style="background-color:#9933ff;">
 
-<center><font face =Helvetica color =#000066 >Food=Good </center>
+<center><font face =Helvetica color =#000066 >Food=Good 
 <h1>Home</h1>
 <p>Welcome to Food=Good order now?</p>
 
@@ -38,9 +38,21 @@
 <li>Crispy Aromatic Duck<button type="button">[+]6.90</button></li>
 <li>
 
+</center>
 
 
+<script src="food.js">
+<button onclick="myFunction()">Order</button>
 
-<script src="food.js"></script>
+<p id="submit"><p>
+
+var Orders =[<prompt>,<prompt>,<prompt>,<prompt>];
+document.getElementById("submit").innerHTML = Orders;
+
+function myFunction(){
+	products.sort();
+	document.getElementById("submit").innerHTML = Orders;	
+}
+</script>
 </body>
 </html>
